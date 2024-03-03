@@ -1,0 +1,373 @@
+{
+    "Currency": "CHF",
+    "OffersDetails": [
+        {
+            "DistributionPartner": "PostFinance AG",
+            "DistributionPartnerId": 15000,
+            "TeamId": 13003,
+            "InternalTeamId": "PF Biel",
+            "InternalUserId": "valuu@testbroker.ch",
+            "UserId": 4770,
+            "InternalLeadId": null,
+            "MultiServicerCaseUUID": "q616273-ueueur-0393",
+            "MultiServicerRoles": [
+                {
+                    "DistributionServicer": "PostFinance",
+                    "DistributionAccount": "CH 23 4623 4623 4624 3623 4",
+                    "PositionKeeper": "GLKB",
+                    "RiskCarrierAccount": "CH 23 4623 4623 4624 3623 4"
+                }
+            ],
+            "OriginatorUserId": "6221",
+            "OriginatorTeamId": "13003",
+            "OriginatorInternalTeamId": "101",
+            "OriginatorInternalUserId": "U6754",
+            "PeriodicControlDate": "2032-08-18T00:00:00",
+            "ManualIntervention": false,
+            "InvestorDetails": [
+                {   "InvestorPartner": "Vaudoise",
+                    "InvestorPartnerId": 30,
+                    "NetLtv": 0.26646,
+                    "GrossLtv": 0.26646,
+                    "PropertyValueUsed": 2627000.00,
+                    "Rating": 2,
+                    "Affordability": 0.18566,
+                    "AffordabilityInAge": null,
+                    "InvestorPortfolioCode": "VAUD",
+                    "InvestorPortfolioID": "157-1"
+                }
+            ],
+            "Borrowers": {
+                "InternalClientGroupId": null,
+                "BorrowersDetails": [
+                    {
+                        "GeneralInformation": {
+                            "Nationality3LetterCode": "CHE",
+                            "ClientId": 72804,
+                            "IdentifieadAs": "FirstApplicant",
+                            "FirstName": "Hans",
+                            "LastName": "Muster",
+                            "Gender": "Male",
+                            "DateOfBirth": "2000-01-01T00:00:00",
+                            "CivilStatus": "Single",
+                            "Children": false,
+                            "Language": "French",
+                            "Street": "TestGasse",
+                            "Number": "1",
+                            "PostalCode": "6402",
+                            "Location": "Merlischachen",
+                            "Country3LetterCode":"CHE",
+                            "Phone": null,
+                            "Email": null,
+                            "TypeOfIncome": "Employed",
+                            "DebtRecoveryActions": "None",
+                            "Employee": false,
+                            "InternalClientId": null
+                        },
+                        "AdditionalCollateral": {
+                            "NumberOfInsurances": 1,
+                            "Insurances": [
+                                {
+                                    "InsuranceId": 47364,
+                                    "InsuranceType": "3a",
+                                    "ExistingInsurancePolicy": true,
+                                    "IsReferenceNumberKnown": true,
+                                    "Company": "Vaudoise Allgemeine, Versicherungs-Gesellschaft AG",
+                                    "CashSurrenderValue": 68790.00,
+                                    "ReferenceNumber": "543",
+                                    "FundBased": true,
+                                    "ExpiryDate": "2022-08-11T00:00:00"
+                                }
+                            ],
+                            "NumberOfSavings3rdPillarAccounts": 0,
+                            "Saving3rdPillar": [],
+                            "NumberOfPensionFunds": 0,
+                            "PensionFunds": []
+                        },
+                        "SelfEmployed": false,
+                        "DebtRecoveryActions": false,
+                        "IsLegalPerson": false,
+                        "IsUSTaxLiableOrUSCitizen": false,
+                        "IncomeAssets": {
+                            "SelfEmploymentIncome": 0.00,
+                            "GrossEarningExclusiveBonus": 100000.00,
+                            "VariableIncome": null,
+                            "AlimonyIncome": null,
+                            "OtherRegularIncome": null,
+                            "ExpectedBVGIncome": 0.00,
+                            "RentalIncome": null,
+                            "PensionIncome": 0.00,
+                            "OtherAssets": null,
+                            "ConsideredAssets":null,
+                            "IGPConcideredIncome":null,
+                            "ExpectedBVGPensionLumpSumPayment": 0.00
+                        },
+                        "Expenses": {
+                            "AlimonyObligations": 0.00,
+                            "InstallmentsConsumerLoansLeasing": 0.00,
+                            "InstallmentsLoansWithThirdParties": 0.00,
+                            "OtherRegularCommitments": 0.00,
+                            "ContingentLiabilitiesguarantees": 0.00,
+                            "OtherDebts": 0.00
+                        },
+                        "OwnFunds": {
+                            "Cash": 200000.00,
+                            "EarlyWithdrawal2ndPillar": 100000.00,
+                            "EarlyWithdrawal3rdPillar": 100000.00
+                        }
+                    },
+                    {
+                        "GeneralInformation": {
+                            "Nationality3LetterCode": "CHE",
+                            "ClientId": 72805,
+                            "IdentifieadAs": "SecondApplicant",
+                            "FirstName": "Test",
+                            "LastName": "Baumann",
+                            "Gender": "Female",
+                            "DateOfBirth": "2000-01-01T00:00:00",
+                            "CivilStatus": "Single",
+                            "Children": false,
+                            "Language": "French",
+                            "Street": "Testgasse",
+                            "Number": "1",
+                            "PostalCode": "6402",
+                            "Country3LetterCode":"CHE",
+                            "Location": "Merlischachen",
+                            "Phone": null,
+                            "Email": null,
+                            "TypeOfIncome": "Employed",
+                            "DebtRecoveryActions": false,
+                            "InternalClientId": null
+                        },
+                        "AdditionalCollateral": {
+                            "Saving3rdPillar": [],
+                            "NumberOfInsurances": 1,
+                            "Insurances": [
+                                {
+                                    "InsuranceId": 47367,
+                                    "InsuranceType": "3a",
+                                    "ExistingInsurancePolicy": true,
+                                    "IsReferenceNumberKnown": true,
+                                    "Company": "Schweizerische Mobiliar Versicherungsgesellschaft",
+                                    "CashSurrenderValue": 76898.00,
+                                    "ReferenceNumber": "43245",
+                                    "FundBased": true,
+                                    "ExpiryDate": "2022-09-08T00:00:00",
+                                    "ConsiderationFactor":80.00
+                                }
+                            ],
+                            "NumberOfSavings3rdPillarAccounts": 0,
+                            "NumberOfPensionFunds": 0,
+                            "PensionFunds": []
+                        },
+                        "SelfEmployed": false,
+                        "DebtRecoveryActions": false,
+                        "IsLegalPerson": false,
+                        "IsUSTaxLiableOrUSCitizen": false,
+                        "IncomeAssets": {
+                            "SelfEmploymentIncome": 0.00,
+                            "GrossEarningExclusiveBonus": 100000.00,
+                            "VariableIncome": null,
+                            "AlimonyIncome": null,
+                            "OtherRegularIncome": null,
+                            "ExpectedBVGIncome": 0.00,
+                            "RentalIncome": null,
+                            "PensionIncome": 0.00,
+                            "OtherAssets": null,
+                            "ExpectedBVGPensionLumpSumPayment": 0.00
+                        },
+                        "Expenses": {
+                            "AlimonyObligations": 0.00,
+                            "InstallmentsConsumerLoansLeasing": 0.00,
+                            "InstallmentsLoansWithThirdParties": 0.00,
+                            "OtherRegularCommitments": 0.00,
+                            "ContingentLiabilitiesguarantees": 0.00,
+                            "OtherDebts": 0.00
+                        },
+                        "OwnFunds": {
+                            "Cash": 100000.00,
+                            "EarlyWithdrawal2ndPillar": 100000.00,
+                            "EarlyWithdrawal3rdPillar": 100000.00
+                        }
+                    }
+                ]
+            },
+            "DuTxRef": "D62740",
+            "InvTxRef": "I62740",
+            "LastDataUpdateTimestamp": "2022-07-03T23:10:20.137",
+            "OfferId": 62740,
+            "WorkflowType": "normal",
+            "Status": "SettlementInitiated",
+            "OfferType": "Regular",
+            "TransactionType": "Replacement",
+            "MortgageRequestOpened": "2022-07-03T22:59:20.567",
+            "OfferCreated": "2022-07-03T23:00:12.373",
+            "OfferRejected": null,
+            "ContractGenerated": "2022-07-03T23:05:10.8066667",
+            "OfferExpired": null,
+            "SubmittedToInfoCheck": "2022-07-03T23:06:25.2133333",
+            "InfoCheckCompleted": "2022-07-03T23:14:05.2033333",
+            "SettlementProcessingInitiated": "2022-07-03T23:14:05.33",
+            "SettlementCompleted": null,
+            "ClientInDefault": null,
+            "ClientInRecovery": null,
+            "MortgageReplaced": null,
+            "LastStatusChange": "2022-07-03T23:14:05.33",
+            "Property": {
+                "PropertyType": "SelfOccupiedApartmentInCondominium",
+                "Location": "Goldau",
+                "Street": "Zaystrasse",
+                "Number": "10",
+                "PostalCode": "6410",
+                "PurchasePrice": 1000000.00,
+                "RenovationValue": null,
+                "PurchaseDate": "2022-01-01T00:00:00",
+                "HouseType": null,
+                "Volume": null,
+                "LandArea": null,
+                "LuxuryProperty": false,
+                "NetLivingArea": 150,
+                "RoomVolumeStandard": "BuildingInsurance",
+                "ConvertibleAttic": false,
+                "ConstructionYear": 2000,
+                "Renovation": false,
+                "YearOfRenovation": null,
+                "BuildingConditionValue": 3.00,
+                "ConstructionQualityValue": 3.50,
+                "MinergieStandard": "Minergie",
+                "NumberOfRooms": 5.50,
+                "RoomCounting": "KitchenNotCounted",
+                "NumberOfSeparateWCs": 2,
+                "GrannyFlat": 1.0,
+                "NumberOfBathroom": 2,
+                "NumberOfSeparateGarages": 1,
+                "NumberOfUndergroundParkingSpots": 1,
+                "NumberOfParkingSpots": 1,
+                "BuildingInsurance": true,
+                "Building": "MultiFamilyHouse",
+                "NumberOfApartments": 3,
+                "ApartmentType": "FloorApartment",
+                "MultiStorey": true,
+                "Floor": 2,
+                "NumberOfFloorsExclGroundFloor": 4,
+                "LocationInTheBuildingValue": 2,
+                "HobbyRoomSurfaceArea": 25,
+                "BalconyTerraceArea": 30,
+                "OwnershipRation1000": 250,
+                "ApartmentConditionValue": 4,
+                "PropertyFeatures": null,
+                "FutureRenovation": null
+            },
+            "AdditionalProperties": {
+                "NumberOfHolidayHomes": 1,
+                "HolidayHome": [
+                    {
+                    "Country3LetterCode": "CHE",
+                    "FiscalValue": 200000,
+                    "Street":"Zaystrasse",
+                    "Number": "10",
+                    "PostalCode":"6410",
+                    "PurchaseDate":"2022-01-01T00:00:00",
+                    "ConstructionYear": 2000,
+                    "HasHolidayHomeMortgage": true,
+                    "HolidayHomeMortgageAmount": 100000
+                    }
+                ],
+                "NumberOfIncomeGeneratingProperties": 1,
+                "IncomeGeneratingProperties": [
+                    {
+                      "NetRentalIncome": 35000,
+                      "IncomePropertyMortgage": 15000,
+                      "PostalCode": "8007",
+                      "Location": "Zurich",
+                      "FiscalValue": 350000
+                    }
+                  ]
+            },
+            "RealEstateEvaluation": {
+                "PrimaryEvaluator": "IAZI",
+                "SecondaryEvaluator": "WP",
+                "PrimaryValuation": 2627000.0,
+                "SecondaryValuation": null,
+                "PrimaryValuationAccuracy": "good",
+                "SecondaryValuationAccuracy": null,
+                "PropertyValueTaken": 2627000.00000,
+                "PropertyAccuracyTaken": "good",
+                "PropertyValuationRule": "PrimaryEvaluation"
+            },
+            "Mortgage": {
+
+                "NominalAmount": 500000.00,
+                "CurrentFinancing": {
+                    "NumberOfTranchesToBeReplaced": 1,
+                    "Tranches": [
+                      {
+                        "Amount": 100000,
+                        "Date": "2019-12-21T00:00:00",
+                        "CreditInstitution": "string",
+                        "ContactPerson": "string"
+                      }
+                    ]
+                },
+                "NewFinancing": {
+                    "DebitAccount": "CH11 1111 1111 1111 1111 1",
+                    "IssuedTo": "Applicant1",
+                    "NumberOfTranches": 2,
+                    "Tranches": [
+                      {
+                        "IsTrancheIncrease": true,
+                        "ToBePaidOutToCustomers": 20000,
+                        "TrancheId": 68222,
+                        "ProductType": "Fixed",
+                        "DayCountConvention": "National",
+                        "TypeOfInvoice": "LSV",
+                        "InterestPaymentPeriodicity": "Quarterly",
+                        "FirstInterestPaymentDate": "2023-09-30",
+                        "Amount": 500000.00,
+                        "TrancheLimit":500000.00,
+                        "DisbursementOfTheTranche": "2022-08-19T00:00:00",
+                        "TrancheStatus": "Active",
+                        "Duration": 10.00,
+                        "InterestRate": 1.00000,
+                        "GrossInterestRateYearly": 1.00000,
+                        "SpecialConditions": null,
+                        "SpecialConditionsType": [
+                            {
+                                "EmployeeDiscount": false
+                            }
+                        ],
+                        "MarginRate": null,
+                        "ExpiryDate": "2032-08-18T00:00:00",
+                        "NumberOfAmortizationEntries": 0
+                      }
+                    ]
+                },
+                    "IsDebenturesExist": true,
+                    "DisbursementAccount": "CH 23 4623 4623 4624 3623 4",
+                    "InTheNameOf": "test",
+                    "NumberOfDebentures": 1,
+                    "Debentures": [
+                        {
+                            "DebentureId": 27911,
+                            "IssuedTo": "Both",
+                            "Kind": "RegisteredDebenture",
+                            "AmountInPreviousRank": 0.00,
+                            "NominalAmount": 500000.00,
+                            "Rank": 1.0,
+                            "LandRegistry": "Goldau",
+                            "LandRegistryNumber": "1234"
+                        }
+                    ]
+                },
+            "Comments": [
+                {
+                    "Author": "Marco Baumann",
+                    "Text": "test"
+                }
+            ]
+        }
+    ],
+    "SuccessfulRequest": true,
+    "Timestamp": "2023-06-23T13:02:45.285773+02:00",
+    "ErrorMessages": []
+}

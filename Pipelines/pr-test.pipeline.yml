@@ -1,0 +1,21 @@
+trigger:
+  branches:
+    exclude:
+    - '*'                              # REQUIRED, branch name
+
+variables:
+  buildConfiguration: 'Debug'          # REQUIRED, config name
+  # buildPlatform: 'any cpu'
+
+# Generic parameters
+resources: 
+  repositories: 
+  - repository: SCE.Pipelines 
+    name: SCE.Pipelines
+    type: git 
+    ref: master #branch name
+
+jobs:
+- template: net-core-test.pipeline.yml@SCE.Pipelines
+  parameters:
+    buildConFiguration: $(buildConfiguration)
